@@ -19,12 +19,9 @@
       &copy;
       {{ (new Date()).getFullYear() }}
       <a
-        href="https://www.creative-tim.com/"
-        target="_blank">Creative Tim</a>, made with
-      <v-icon
-        color="tertiary"
-        size="17">mdi-heart</v-icon>
-      for a better web
+        links="/students"
+        target="_blank">Родишев Денис</a>
+      
     </span>
   </v-footer>
 </template>
@@ -33,10 +30,10 @@
 export default {
   data: () => ({
     links: [
-      { name: 'Home', Link: '/dashboard' },
-      { name: 'Creative Tim', Link: 'https://www.creative-tim.com' },
-      { name: 'About Us', Link: 'https://creative-tim.com/presentation' },
-      { name: 'Blog', Link: 'https://blog.creative-tim.com' }
+      { name: 'Домашняя страница', Link: '/dashboard' },
+      { name: 'Студенты', Link: '/students' },
+      { name: 'Распознавание лиц', Link: '/recognize' },
+      { name: 'Напоминания', Link: '/notifications' }
     ]
   })
 }
